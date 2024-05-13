@@ -1,7 +1,7 @@
 {
   "name": "husky.demo",
   "version": "1.0.0",
-  "description": "presentation",
+  "description": "asurion demo presentation for the team",
   "main": "index.js",
   "scripts": {
     "test": "jest",
