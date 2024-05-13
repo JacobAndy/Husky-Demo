@@ -1,5 +1,5 @@
 #!bin/bash
-PROTECTED_BRANCHES=("master" "main")
+PROTECTED_BRANCHES=("master" "main-test")
 branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
 
 for protected_branch in "${PROTECTED_BRANCHES[@]}"; do
