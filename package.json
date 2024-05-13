@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "validate-git-branch": "bash ./commands/validate_git_branch.sh"
   },
   "author": "",
   "license": "ISC",
@@ -21,7 +22,8 @@
   "lint-staged": {
     "**/*.js": [
       "eslint --fix",
-      "prettier --write"
+      "prettier --write",
+      "npm run validate-git-branch"
     ]
   }
 }
